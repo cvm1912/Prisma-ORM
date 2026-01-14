@@ -12,3 +12,12 @@ create a src folder and add index.ts
   "scripts": {
     "dev": "tsc -b && node ./dist/index.js"
   },
+
+
+  npm install pg @types/pg (install postgress)
+  npm install prisma 
+  npm i @prisma/client
+
+  npx prisma init (create a prisma folder ad .env file)
+  npxx prisma migrate dev
+  npx prisma generate
