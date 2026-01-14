@@ -1,0 +1,21 @@
+{
+  "name": "prisma-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvm1912/Prisma-ORM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cvm1912/Prisma-ORM/issues"
+  },
+  "homepage": "https://github.com/cvm1912/Prisma-ORM#readme"
+}
