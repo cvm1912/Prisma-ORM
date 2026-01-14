@@ -13,6 +13,19 @@ model User {
   password   String
   firstName  String
   lastName   String
+  todo       Todo[]
 }
+
+model Todo{
+  id    Int @id @default(autoincrement())
+  title String 
+  description String
+  isActive   Boolean @default(false)
+  userId      Int
+  user        User  @relation(fields: [userId], references: [id])
+}
+
+
+
 
 

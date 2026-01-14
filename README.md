@@ -26,3 +26,6 @@ create a src folder and add index.ts
 
 npm install @prisma/adapter-pg
 npm install dotenv
+
+
+npm install @types/express
