@@ -21,3 +21,8 @@ create a src folder and add index.ts
   npx prisma init (create a prisma folder ad .env file)
   npxx prisma migrate dev
   npx prisma generate
+
+
+
+npm install @prisma/adapter-pg
+npm install dotenv
